@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jurisdiction Finder</string>
+    <string name="address">Address...</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="use_gps">Use GPS</string>
+    <string name="Use_Address" />
+    <string name="use_address">Use Address</string>
+</resources>

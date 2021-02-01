@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 # Jurisdiction Finder
 
 This app is designed to take a user's current location (GPS coordinates) or a manually entered address and yield the current legal jurisdiction (county, incorporated city, township, etc).  This app was originally meant to be tied to a database of certain legal information, but the project was never seen to fruition.  However, since the code for determining legal jurisdictions was ready, it was determined that it might as well not go to waste, despite its simplicity.  The Java program itself is only one file with 260 lines of code.

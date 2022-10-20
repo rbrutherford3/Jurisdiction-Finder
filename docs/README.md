@@ -1,10 +1,36 @@
 # Jurisdiction Finder
 
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
 ![logo](logo.png)
 
-This app is designed to take a user's current location (GPS coordinates) or a manually entered address and yield the current legal jurisdiction (county, incorporated city, township, etc).  This app was originally meant to be tied to a database of certain legal information, but the project was never seen to fruition.  However, since the code for determining legal jurisdictions was ready, it was determined that it might as well not go to waste, despite its simplicity.  The Java program itself is only one file with 260 lines of code.
+This Android app ([available for download on Google Play](https://play.google.com/store/apps/details?id=com.rsquared.jurisdictionfinder&hl=en&gl=US)) is designed to take a user's current location through their GPS coordinates or a manually entered address and yield the current legal jurisdiction (i.e.: county, incorporated city, township, etc).
 
-## Instructions for use
+## Table of Contents
+
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgments)
+
+## Background
+
+The original inspiration for this app came from the beginnings of a collaboration with James Sinclair, the creator of the website [Local Alcohol Laws](http://localalcohollaws.com/).  The idea was to use the location gathered from this app with the information from the **Local Alcohol Laws** database for a **Local Alcohol Laws** app, but the venture never took off and instead this app was created separately. 
+
+## Install
+
+Assuming you have Android Studio up and running, you can do the following to get a working environment up and running:
+
+1. Open Android Studio
+2. Go to `File` menu and then click `Close` if you have another project showing
+3. Click `Get from Version Control`
+4. Enter `https://github.com/rbrutherford3/Jurisdiction-Finder.git` into the `URL` field
+5. Select a location on your hard drive to house the project under `Directory`
+6. Click `Clone`
+
+## Usage
 
 Opening the downloaded app will reveal a blank input screen:
 
@@ -22,49 +48,14 @@ Entering a point of interest will result in the GPS coordinates, address, and ju
 
 ![Address results screenshot](screen_shot_address_results.gif)
 
-## Prerequisites
-
-[Android Studio](https://developer.android.com/studio)
-
-## Installing
-
-Assuming you have Android Studio up and running, you can do the following to get a working environment up and running:
-
-1. Open Android Studio
-2. Go to `File` menu and then click `Close` if you have another project showing
-3. Click `Get from Version Control`
-4. Enter `https://github.com/robbie9485/Jurisdiction-Finder.git` into the `URL` field
-5. Select a location on your hard drive to house the project under `Directory`
-6. Click `Clone`
-
-## High Level Overview
-
-Because this app is fairly concise, there is no high level overview.  Instead, please see the [`MainActivity.java`](https://github.com/robbie9485/Jurisdiction-Finder/blob/master/app/src/main/java/com/rsquared/jurisdictionfinder/MainActivity.java) and read the comments for each function.  It is worth noting that an older version of this program used the Google Maps API, but the current version uses the standard location services library.  The Google Maps API version was lost.
-
-## Deployment
-
-[This app is available in Google Play](https://play.google.com/store/apps/details?id=com.rsquared.jurisdictionfinder)
-
-## Built With
-
-[Android Studio](https://developer.android.com/studio)
-
 ## Contributing
 
-Please contact me (robbie9485) on GitHub in order to inquire more about the project.
-
-## Versioning
-
-`Git` functions in Android Studio were used to version the software on *GitHub*
-
-## Authors
-
-Robert Rutherford
+Contributions are welcome, including any feedback.  Please contact rbrutherford3 on GitHub.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details
+[MIT © Robert Rutherford](../LICENSE)
 
 ## Acknowledgments
 
-* Thanks to James Sinclair for providing the motivation to create this app.
+Thanks to James Sinclair for providing the motivation to create this app.
